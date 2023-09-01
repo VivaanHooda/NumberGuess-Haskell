@@ -64,4 +64,4 @@ main = do
 This project is licensed under the MIT License. For more details, please see the [LICENSE](LICENSE) file.
 
 Enjoy the game, and may the odds be ever in your favor!
-```
+
