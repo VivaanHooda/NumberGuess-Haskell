@@ -65,5 +65,3 @@ This project is licensed under the MIT License. For more details, please see the
 
 Enjoy the game, and may the odds be ever in your favor!
 ```
-
-Feel free to use this improved README for your GitHub project. It provides a more engaging and informative introduction to your game.
