@@ -1,4 +1,3 @@
-```markdown
 # NumberGuess-Haskell
 
 Welcome to the Number Guessing Game in Haskell!
