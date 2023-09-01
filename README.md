@@ -1,4 +1,3 @@
-
 ```markdown
 # NumberGuess-Haskell
 
@@ -6,42 +5,43 @@ Welcome to the Number Guessing Game in Haskell!
 
 ## Overview
 
-This project allows users to play a simple number guessing game where they try to guess a randomly generated number within a specified range. The program provides feedback on whether the guess is higher or lower than the target number and keeps track of the number of attempts made by the user.
+NumberGuess-Haskell is a fun and interactive project that lets you test your guessing skills. This simple game challenges you to guess a randomly generated number within a specified range. The program provides helpful feedback, telling you whether your guess is higher or lower than the target number, all while keeping track of the number of attempts you've made.
 
 ## How to Play
 
-1. Clone the Repository:
+Ready to play? Here's how you can get started:
+
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/specdrake28/NumberGuess-Haskell.git
    ```
 
-2. Build the Haskell Program:
+2. **Build the Haskell Program:**
    ```bash
    ghc Guess.hs
    ```
 
-3. Run the Game:
+3. **Run the Game:**
    ```bash
    ./Guess
    ```
 
-4. Follow the on-screen instructions to guess the number within the specified range.
-
-## Gameplay
-
-- The game will start by providing instructions and generating a random number between 1 and 16.
-- You will be prompted to enter your guess.
-- Based on your guess, the program will provide feedback, informing you if your guess is too high or too low.
-- Keep guessing until you correctly guess the number.
-- The program will display the number of attempts it took you to guess the correct number.
+4. **Follow the On-Screen Instructions:**
+   - The game will greet you with instructions and generate a random number between 1 and 16.
+   - You'll be prompted to enter your guess.
+   - Based on your guess, the program will provide feedback, letting you know if your guess is too high or too low.
+   - Continue guessing until you correctly guess the number.
+   - The program will display the number of attempts it took you to guess the correct number.
 
 ## Example Code
+
+Here's a glimpse of the code that powers this exciting game:
 
 ```haskell
 import System.Random 
 
 loop n tries = do
-    putStrLn "please guess the number"
+    putStrLn "Please guess the number"
     l <- getLine
     let i = read l :: Int
     if i == n
@@ -62,7 +62,9 @@ main = do
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. For more details, please see the [LICENSE](LICENSE) file.
 
-Enjoy the game!
+Enjoy the game, and may the odds be ever in your favor!
 ```
+
+Feel free to use this improved README for your GitHub project. It provides a more engaging and informative introduction to your game.
