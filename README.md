@@ -12,7 +12,7 @@ Ready to play? Here's how you can get started:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/hexnash28/NumberGuess-Haskell.git
+   git clone https://github.com/VivaanHooda/NumberGuess-Haskell.git
    ```
 
 2. **Build the Haskell Program:**
